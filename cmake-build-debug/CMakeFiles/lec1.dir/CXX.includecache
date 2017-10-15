@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Nikita/Desktop/CLionProjects/c++/lec1/Book.cpp
+Book.h
+/Users/Nikita/Desktop/CLionProjects/c++/lec1/Book.h
+string
+-
+
+/Users/Nikita/Desktop/CLionProjects/c++/lec1/Book.h
+string
+-
+
+/Users/Nikita/Desktop/CLionProjects/c++/lec1/Library.cpp
+Library.h
+/Users/Nikita/Desktop/CLionProjects/c++/lec1/Library.h
+iostream
+-
+vector
+-
+string
+-
+
+/Users/Nikita/Desktop/CLionProjects/c++/lec1/Library.h
+Book.h
+/Users/Nikita/Desktop/CLionProjects/c++/lec1/Book.h
+vector
+-
+string
+-
+
+/Users/Nikita/Desktop/CLionProjects/c++/lec1/main.cpp
+iostream
+-
+vector
+-
+Book.h
+/Users/Nikita/Desktop/CLionProjects/c++/lec1/Book.h
+Library.h
+/Users/Nikita/Desktop/CLionProjects/c++/lec1/Library.h
+
