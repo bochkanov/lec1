@@ -19,24 +19,24 @@ int main() {
 
     //check functions
     std::cout << "\nFunction SearchByAuthor: " << std::endl;
-    std::vector<std::string> search_by_author;
+    std::vector<Books> search_by_author;
     search_by_author = library1.SearchByAuthor("Lisa");
     for (auto i : search_by_author)
-        std::cout << i << std::endl;
+        std::cout << i.getTitle() << " " << i.getAuthor() << " " << i.getYear() << std::endl;
 
 
     std::cout << "\nFunction SearchByYear: " << std::endl;
-    std::vector<std::string> search_by_year;
+    std::vector<Books> search_by_year;
     search_by_year = library1.SearchByYear(1992);
     for (auto i : search_by_year)
-        std::cout << i << std::endl;
+        std::cout << i.getTitle() << " " << i.getAuthor() << " " << i.getYear() << std::endl;
 
 
     std::cout << "\nFunction SearchByTitle: " << std::endl;
-    std::vector<std::string> search_by_title;
+    std::vector<Books> search_by_title;
     search_by_title = library1.SearchByTitle("Design");
     for (auto i : search_by_title)
-        std::cout << i << std::endl;
+        std::cout << i.getTitle() << " " << i.getAuthor() << " " << i.getYear() << std::endl;
 
     return 0;
 

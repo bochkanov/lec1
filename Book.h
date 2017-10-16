@@ -12,11 +12,11 @@ private:
 
 public:
 
-    std::string getTitle();
-    std::string getAuthor();
-    int getYear();
+    std::string getTitle() const;
+    std::string getAuthor() const;
+    int getYear() const;
 
-    Books(std::string title_, std::string author_, int year_);
+    Books(const std::string& title_, const std::string& author_, const int& year_);
 
 
 };
